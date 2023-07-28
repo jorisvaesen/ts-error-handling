@@ -1,0 +1,31 @@
+{
+  "name": "vue-lazyload",
+  "version": "1.0.0",
+  "description": "Vue module for lazy-loading images in your vue.js applications.",
+  "main": "vue-lazyload.js",
+  "module": "vue-lazyload.esm.js",
+  "unpkg": "vue-lazyload.js",
+  "scripts": {
+    "build": "node build",
+    "lint": "eslint ./src",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hilongjw/vue-lazyload.git"
+  },
+  "keywords": [
+    "vue-lazyload",
+    "vue",
+    "lazyload",
+    "vue-directive"
+  ],
+  "author": "Awe <hilongjw@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/hilongjw/vue-lazyload/issues"
+  },
+  "license": "MIT"
+}
